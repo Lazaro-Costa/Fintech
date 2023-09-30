@@ -3,8 +3,10 @@ import './Style.css'
 import Resumo from "./pages/Resumo"
 import Sidenav from "./components/Sidenav"
 import Header from "./components/Header"
+import { DataContextProvider } from "./Context/DataContext"
 function App() {
   return (
+    <DataContextProvider>
     <div>
       <Sidenav/>
       <main>
@@ -12,6 +14,7 @@ function App() {
       <Resumo/>
       </main>
     </div>
+    </DataContextProvider>
   )
 }
 
