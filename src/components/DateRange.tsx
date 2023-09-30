@@ -1,5 +1,5 @@
 import React from 'react'
-import DataInput from './DataInput'
+import DataInput from './DateInput'
 
 const DateRange = () => {
   const [inicio, setInicio] = React.useState('')
