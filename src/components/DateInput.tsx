@@ -26,7 +26,7 @@ const DataInput = ({label, ...props}: IDateInput) => {
   return (
     <div>
       <label style={labelStyle} htmlFor={label}>{label}</label>
-      <input id={label} name={label} type="date" {...props}/>
+      <input style={inputStyle} id={label} name={label} type="date" {...props}/>
     </div>
   )
 }
