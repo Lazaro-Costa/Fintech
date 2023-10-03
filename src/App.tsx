@@ -4,6 +4,7 @@ import Resumo from "./pages/Resumo"
 import Sidenav from "./components/Sidenav"
 import Header from "./components/Header"
 import { DataContextProvider } from "./Context/DataContext"
+import Vendas from "./pages/Vendas"
 function App() {
   return (
     <DataContextProvider>
@@ -12,6 +13,7 @@ function App() {
       <main>
       <Header/>
       <Resumo/>
+      <Vendas/>
       </main>
     </div>
     </DataContextProvider>

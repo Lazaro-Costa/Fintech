@@ -2,7 +2,7 @@ import React from 'react'
 import useFetch from '../Hooks/useFetch';
 import { func } from 'prop-types';
 
-type IVenda ={
+export type IVenda ={
   id: string;
   nome: string  
   preco: number;
