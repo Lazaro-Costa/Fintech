@@ -120,3 +120,14 @@ ul {
   text-decoration: none;
   color: inherit;
 }
+/* Venda.tsx */
+.vendaInfo p{
+  font-size: 1.125rem;
+  color: var(--color1);
+  font-weight: 600;
+}
+.vendaInfo p > span{
+  font-weight: 400;
+  color: var(--color2);
+  text-transform: capitalize;
+}

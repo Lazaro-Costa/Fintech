@@ -1,6 +1,5 @@
 import React from 'react'
 import useFetch from '../Hooks/useFetch';
-import { func } from 'prop-types';
 
 export type IVenda ={
   id: string;
